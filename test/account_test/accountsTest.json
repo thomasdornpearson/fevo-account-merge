@@ -1,0 +1,27 @@
+[
+  {
+    "application": "x",
+    "emails": [
+      "a",
+      "b",
+      "c"
+    ],
+    "name": "Person 1"
+  },
+  {
+    "application": "y",
+    "emails": [
+      "c",
+      "d"
+    ],
+    "name": "Person 1"
+  },
+  {
+    "application": "y",
+    "emails": [
+      "c",
+      "g"
+    ],
+    "name": "Person 2"
+  }
+]
