@@ -110,9 +110,9 @@ func AccountMerge(action string, readFile string, outFile string, print bool) st
 		}
 		return "failed"
 	case action == "help":
-		fmt.Println("\n" + `go run main.go -accounts-json ../../accounts.json ../../accountsOut.json p -> To run as the script version` + "\n" +
-						   `./account -accounts-json ../../accounts.json ../../accountsOut.json p -> Run and print results in console` + "\n" +
-						   `./account -accounts-json ../../accounts.json ../../accountsOut.json -> Run in quiet mode`)
+		fmt.Println("\n" + `go run main.go -accounts-json -input=../../accounts.json -output=../../accountsOut.json -pretty-print -> To run as the script version` + "\n" +
+						   `./account -accounts-json -input=../../accounts.json -output=../../accountsOut.json -pretty-print -> Run and print results in console` + "\n" +
+						   `./account -accounts-json -input=../../accounts.json -output=../../accountsOut.json -> Run in quiet mode`)
 		return "help"	
 	default:
 		flag.Usage()
