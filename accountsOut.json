@@ -1,6 +1,8 @@
 [
  {
   "application": [
+   "b",
+   "j",
    "x",
    "y"
   ],
@@ -16,11 +18,13 @@
  },
  {
   "application": [
-   "h"
+   "b",
+   "x",
+   "y"
   ],
-  "name": "Person 4",
+  "name": "Person 3",
   "emails": [
-   "k"
+   "c"
   ]
  }
 ]

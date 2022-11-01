@@ -62,6 +62,7 @@ func AccountMerge(action string, readFile string, outFile string, print bool) st
 						emails[account.Emails[i]] = parentEmail
 					}
 				}
+				fmt.Println(emails)
 				for _, account := range accounts {
 					parentEmail := utils.Find(account.Emails[0], emails)
 					if _, ok := common[parentEmail]; ok == false {

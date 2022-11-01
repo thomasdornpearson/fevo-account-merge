@@ -8,8 +8,8 @@ import (
 
 func main() {
 	var action string
-	accountsJson := flag.Bool("accounts-json", false, "provide path to accounts json file, and an option p for print, always writes to accountOut.json")
-	help := flag.Bool("help", false, "Example: go run main.go -accounts-json ./accounts.json p")
+	accountsJson := flag.Bool("accounts-json", false, "provide path to accounts json file and output file, and an option -pretty-print for print")
+	help := flag.Bool("help", false, "Example: go run main.go -accounts-json -input=../../accounts.json -output=../../accountsOut.json -pretty-print")
 	input := flag.String("input", "", "Input file")
 	output := flag.String("output", "", "Output file")
 	print := flag.Bool("pretty-print", false, "Print the output to the console")
